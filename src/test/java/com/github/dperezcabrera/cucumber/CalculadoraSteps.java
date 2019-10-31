@@ -5,19 +5,19 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class OperationSteps {
+public class CalculadoraSteps {
 
-    private Operacion operacion;
+    private Calculadora calculadora;
     private int resultado;
 
-    @Given("^una operacion$")
-    public void una_operacion() throws Throwable {
-        operacion = new Operacion();
+    @Given("^una calculadora")
+    public void una_calculadora() throws Throwable {
+        calculadora = new Calculadora();
     }
 
-    @When("^calculamos la suma entre (-?\\d+) y (-?\\d+)$")
-    public void calculamos_la_suma_entre_dos_numero(int arg1, int arg2) throws Throwable {
-        resultado = operacion.suma(arg1, arg2);
+    @When("^realizamos la suma entre (-?\\d+) y (-?\\d+)$")
+    public void realizamos_la_suma_entre_dos_numero(int arg1, int arg2) throws Throwable {
+        resultado = calculadora.suma(arg1, arg2);
     }
 
     @Then("^el resultado esperado es (-?\\d+)$")
