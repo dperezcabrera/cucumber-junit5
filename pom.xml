@@ -16,7 +16,6 @@
         <junit-platform.version>1.6.0-M1</junit-platform.version>
         <pitest-maven.version>1.4.10</pitest-maven.version>
         <pitest-junit5-plugin.version>0.10</pitest-junit5-plugin.version>
-        <pitest-cucumber-plugin.version>0.8</pitest-cucumber-plugin.version>
     </properties>
     
     <dependencies>
