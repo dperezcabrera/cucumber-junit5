@@ -1,5 +1,6 @@
 package com.github.dperezcabrera.cucumber;
 
+import com.github.dperezcabrera.Calculadora;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
