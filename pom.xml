@@ -13,6 +13,7 @@
         <maven-surefire-plugin.version>3.0.0-M4</maven-surefire-plugin.version>
         <cucumber.version>5.2.0</cucumber.version>
         <junit-jupiter.version>5.6.0</junit-jupiter.version>
+        <junit-vintage.version>5.6.0</junit-vintage.version>
         <junit-platform.version>1.6.0</junit-platform.version>
         <pitest-maven.version>1.4.11</pitest-maven.version>
         <pitest-junit5-plugin.version>0.12</pitest-junit5-plugin.version>
@@ -22,7 +23,7 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>${junit-engine.version}</version>
+            <version>${junit-jupiter.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -34,7 +35,7 @@
         <dependency>
             <groupId>org.junit.vintage</groupId>
             <artifactId>junit-vintage-engine</artifactId>
-            <version>${junit-engine.version}</version>
+            <version>${junit-vintage.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
