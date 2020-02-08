@@ -10,12 +10,12 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <maven-surefire-plugin.version>3.0.0-M3</maven-surefire-plugin.version>
-        <cucumber.version>5.0.0-RC1</cucumber.version>
-        <junit-engine.version>5.5.2</junit-engine.version>
-        <junit-platform.version>1.5.2</junit-platform.version>
-        <pitest-maven.version>1.4.10</pitest-maven.version>
-        <pitest-junit5-plugin.version>0.10</pitest-junit5-plugin.version>
+        <maven-surefire-plugin.version>3.0.0-M4</maven-surefire-plugin.version>
+        <cucumber.version>5.2.0</cucumber.version>
+        <junit-jupiter.version>5.6.0</junit-jupiter.version>
+        <junit-platform.version>1.6.0</junit-platform.version>
+        <pitest-maven.version>1.4.11</pitest-maven.version>
+        <pitest-junit5-plugin.version>0.12</pitest-junit5-plugin.version>
     </properties>
     
     <dependencies>
